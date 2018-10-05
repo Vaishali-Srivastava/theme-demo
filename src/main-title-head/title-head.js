@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-class Index extends Component {
+class TitleHead extends Component {
   render() {
     return (
       <div>
-        <h2>Home</h2>
+        <h1>Header Component</h1>
       </div>
     )
   }
 }
 
-export default Index;
 
+export default TitleHead;

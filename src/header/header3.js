@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class ReactjsJsx extends Component {
+class HeaderThird extends Component {
   render() {
     return (
       <div>
-        <h2>React JSX</h2>
+        <h2>Header3</h2>
       </div>
     )
   }
 }
 
-export default ReactjsJsx;
+export default HeaderThird;

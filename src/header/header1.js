@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class ReactjsOverview extends Component {
+class HeaderFirst extends Component {
   render() {
     return (
       <div>
-        <h2>React Overview</h2>
+        <h2>Header1sddd</h2>
       </div>
     )
   }
 }
 
-export default ReactjsOverview;
+export default HeaderFirst;
