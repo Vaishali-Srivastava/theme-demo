@@ -1,0 +1,21 @@
+.dynamic-container .custom-scroll{
+    height: calc(100vh - 260px)!important;
+    overflow-y: auto;
+}
+.dynamic-container .custom-scroll .custom-scrollbar .inner-handle:after {
+    content: '';
+    display: block;
+    background-color: #7d8da1;
+    border-radius: 3px;
+    width: 6px;
+    height: 100%;
+    -webkit-transform: translateX(7px);
+    -ms-transform: translateX(7px);
+    transform: translateX(7px);
+    -webkit-transition: width 0.2s, opacity 0.2s, border-radius 0.2s, -webkit-transform 0.2s;
+    transition: width 0.2s, opacity 0.2s, border-radius 0.2s, -webkit-transform 0.2s;
+    -o-transition: transform 0.2s, width 0.2s, opacity 0.2s, border-radius 0.2s;
+    transition: transform 0.2s, width 0.2s, opacity 0.2s, border-radius 0.2s;
+    transition: transform 0.2s, width 0.2s, opacity 0.2s, border-radius 0.2s, -webkit-transform 0.2s;
+    opacity: 0.65;
+}

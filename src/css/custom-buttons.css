@@ -1,0 +1,133 @@
+.btn {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: 1.5rem 4rem;
+    font-size: 1.5rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff;
+}
+.btn:active, .btn:focus, .btn:hover,
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    outline: none;
+}
+.btn-primary {
+    background-color: #4285f4!important;
+    color: #fff!important;
+}
+.btn-default {
+    background-color: #2bbbad!important;
+    color: #fff!important;
+}
+.btn-secondary {
+    background-color: #a6c!important;
+    color: #fff!important;
+}
+.btn-success {
+    background-color: #00c851!important;
+    color: #fff!important;
+}
+.btn-info {
+    background-color: #33b5e5!important;
+    color: #fff!important;
+}
+.btn-warning {
+    background-color: #f80!important;
+    color: #fff!important;
+}
+.btn-danger {
+    background-color: #ff3547!important;
+    color: #fff!important;
+}
+.btn-link{
+    background-color: #0c46a7!important;
+    color: #fff!important;
+}
+.btn-link:hover,
+.btn-link:focus{
+    text-decoration: none;
+}
+.btn-round-style{
+   border-radius: 25px; 
+}
+.btn-line-secondary{
+    border: 1px solid #a6c!important;
+    color: #a6c!important;
+    background-color: #fff!important;
+}
+.btn-line-primary{
+    border: 1px solid #4285f4!important;
+    color: #4285f4!important;
+    background-color: #fff!important;    
+}
+.btn-line-secondary{
+    border: 1px solid #a6c!important;
+    color: #a6c!important;
+    background-color: #fff!important;
+}
+.btn-line-info{
+    border: 1px solid #33b5e5!important;
+    color: #33b5e5!important;
+    background-color: #fff!important;    
+}
+.btn-line-danger{
+    border: 1px solid #ff3547!important;
+    color: #ff3547!important;
+    background-color: #fff!important;
+}
+.btn-line-success{
+    border: 1px solid #00c851!important;
+    color: #00c851!important;
+    background-color: #fff!important;    
+}
+.btn-peach-gradient{
+    background: -webkit-linear-gradient(50deg,#ffd86f,#fc6262)!important;
+    background: -o-linear-gradient(50deg,#ffd86f,#fc6262)!important;
+    background: linear-gradient(40deg,#ffd86f,#fc6262)!important;
+    color: #fff;
+}
+.btn-purple-gradient{
+    background: -webkit-linear-gradient(50deg,#ff6ec4,#7873f5)!important;
+    background: -o-linear-gradient(50deg,#ff6ec4,#7873f5)!important;
+    background: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+}
+.btn-aqua-gradient{
+    background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
+}
+.btn-blue-gradient{
+    background: -webkit-linear-gradient(50deg,#45cafc,#303f9f)!important;
+    background: -o-linear-gradient(50deg,#45cafc,#303f9f)!important;
+    background: linear-gradient(40deg,#45cafc,#303f9f)!important;
+}
+
+.btn-peach-gradient:hover,
+.btn-peach-gradient:focus{
+    color: #fff;
+}
+.btn-purple-gradient:hover,
+.btn-purple-gradient:focus
+{
+    color: #fff;
+}
+.btn-aqua-gradient:hover,
+.btn-aqua-gradient:focus{
+    color: #fff;
+}
+.btn-blue-gradient:hover,
+.btn-blue-gradient:focus{
+    color: #fff;
+}

@@ -23,19 +23,19 @@
     text-align: left;
     margin-bottom: 0;
 }
-.sidebar-wrap ul li{
+.sidebar-wrap ul li.list-item{
     background-color: rgba(95,93,93,.15);
     padding: 7px 40px;
     transition: all 0.3s linear;
 }
-.sidebar-wrap ul li:last-child{
+.sidebar-wrap ul li.list-item:last-child{
     border-bottom: 0;
 }
-.sidebar-wrap ul li:hover,
-.sidebar-wrap ul li:focus{
+.sidebar-wrap ul li.list-item:hover,
+.sidebar-wrap ul li.list-item:focus{
     background-color: rgba(95,93,93,.2);
 }
-.sidebar-wrap ul li a{
+.sidebar-wrap ul li.list-item a{
     font-size: 13px;
     color: #333;
 }

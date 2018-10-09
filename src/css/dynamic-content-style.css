@@ -1,0 +1,10 @@
+.dynamic-container{
+    position: fixed;
+    width: 100%;
+    left: 300px;
+    z-index: 9;
+    width: calc(100% - 380px);
+    top: 112px;
+    padding: 50px 30px;
+    
+}

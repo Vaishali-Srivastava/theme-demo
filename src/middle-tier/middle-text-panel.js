@@ -8,15 +8,15 @@ class MiddleTextPanel extends Component {
   render() {
     return (
       <div>
-          <Router>
-            <div>
-              <Switch>
-                  <Route exactly pattern="header/header1" component={HeaderFirst} />
-                  <Route exactly pattern="header/header2" component={HeaderSecond} />
-                  <Route exactly pattern="header/header3" component={HeaderThird} />
-              </Switch>
-            </div>
-          </Router>
+            <Router>
+              <div>
+                  <switch>
+                    <Route  exact path="/header1" component={HeaderFirst} />
+                    <Route  path="/header2" component={HeaderSecond} />
+                    <Route  path="/header3" component={HeaderThird} />
+                  </switch>
+              </div>
+            </Router>
       </div>
     )
   }
