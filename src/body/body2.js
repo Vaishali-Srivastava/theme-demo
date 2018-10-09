@@ -5,7 +5,7 @@ class BodySecond extends Component {
   render() {
     return (
       <div>
-        <h3 className="text-left mt-0">Buttons Structure</h3>
+        <h4 className="text-left mt-0">Buttons Structure</h4>
         <div className="button-panel">
           <ButtonToolbar>
             {/* Standard button */}
@@ -42,6 +42,12 @@ class BodySecond extends Component {
             <Button bsStyle="round-style btn-purple-gradient btn-lg">Purple Gradient Button</Button>
             <Button bsStyle="round-style btn-aqua-gradient btn-lg">Aqua Gradient Button</Button>
             <Button bsStyle="round-style btn-blue-gradient btn-lg">Blue Gradient Button</Button>
+          </ButtonToolbar>
+          <ButtonToolbar className="mt-3x">
+            <Button bsStyle="circle-style btn-purple-gradient"><i className="fa fa-bolt"></i></Button>
+            <Button bsStyle="circle-style btn-peach-gradient"><i className="fa fa-leaf"></i></Button>
+            <Button bsStyle="circle-style btn-aqua-gradient"><i className="fa fa-star"></i></Button>
+            <Button bsStyle="circle-style btn-blue-gradient"><i className="fa fa-bolt"></i></Button>
           </ButtonToolbar>
         </div>
       </div>

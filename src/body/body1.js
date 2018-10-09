@@ -9,8 +9,7 @@ class BodyFirst extends Component {
     return (
       <div>
         <div>
-          
-          <h3 className="text-left mt-0">Table Structure</h3>
+          <h4 className="text-left mt-0">Table Structure</h4>
           <CustomScrollBar
                             allowOuterScroll={false}
                             heightRelativeToParent={`calc(100% - 600px)`}

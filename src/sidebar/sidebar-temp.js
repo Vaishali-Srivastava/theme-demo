@@ -7,6 +7,8 @@ import HeaderThird from '../header/header3';
 import BodyFirst from '../body/body1';
 import BodySecond from '../body/body2';
 import BodyThird from '../body/body3';
+import PaginationComp from '../body/pagination';
+import PopoverComp from '../body/popover';
 import FooterFirst from '../footer/footer1';
 import FooterSecond from '../footer/footer2';
 import FooterThird from '../footer/footer3';
@@ -44,13 +46,19 @@ class SidebarTemp extends Component {
                         <Panel.Body collapsible>
                             <ul>
                                 <li className="list-item">
-                                    <Link to="./body1">Body1</Link>
+                                    <Link to="./body1">Table</Link>
                                 </li>
                                 <li className="list-item">
-                                    <Link to="./body2">Body2</Link>
+                                    <Link to="./body2">Buttons</Link>
                                 </li>
                                 <li className="list-item">
-                                    <Link to="./body3">Body3</Link>
+                                    <Link to="./body3">Carousel</Link>
+                                </li>
+                                <li className="list-item">
+                                    <Link to="./pagination">Pagination</Link>
+                                </li>
+                                <li className="list-item">
+                                    <Link to="./popover">Popover</Link>
                                 </li>
                             </ul>
                         </Panel.Body>
@@ -83,6 +91,8 @@ class SidebarTemp extends Component {
                             <Route  path="/body1" component={BodyFirst} />
                             <Route  path="/body2" component={BodySecond} />
                             <Route  path="/body3" component={BodyThird} />
+                            <Route  path="/pagination" component={PaginationComp} />
+                            <Route  path="/popover" component={PopoverComp} />
                             <Route  path="/footer1" component={FooterFirst} />
                             <Route  path="/footer2" component={FooterSecond} />
                             <Route  path="/footer3" component={FooterThird} />
