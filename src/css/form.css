@@ -1,0 +1,8 @@
+.pattern-bg-wrapper{
+    background: url(/images/pattern-bg.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 105px);
+    background-attachment: fixed;
+    background-position: top;
+    margin: -50px -28px;
+}

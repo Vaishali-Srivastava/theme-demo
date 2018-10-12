@@ -1,0 +1,29 @@
+.tabs-wrapper .nav-tabs>li {
+    flex: 1;
+}
+.tabs-wrapper ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabs-wrapper .nav-tabs>li.active>a, 
+.tabs-wrapper .nav-tabs>li.active>a:focus, 
+.tabs-wrapper .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #7509c8;
+    border: 1px solid #7509c8;
+    border-bottom-color: transparent;
+}
+.tabs-wrapper .nav>li>a {
+    text-align: center;
+    border: 1px solid #7509c8;
+    color: #7509c8;
+}
+.tabs-wrapper .tab-content{
+    padding: 40px 0;
+}
+.tabs-wrapper .tab-content p{
+    font-size: 14px;
+    line-height: 22px;
+} 

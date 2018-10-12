@@ -8,7 +8,10 @@ import BodyFirst from '../body/body1';
 import BodySecond from '../body/body2';
 import BodyThird from '../body/body3';
 import PaginationComp from '../body/pagination';
+import TooltipComp from '../body/tooltip';
 import PopoverComp from '../body/popover';
+import TabsComp from '../body/tabs';
+import FormComp from '../body/form';
 import FooterFirst from '../footer/footer1';
 import FooterSecond from '../footer/footer2';
 import FooterThird from '../footer/footer3';
@@ -60,6 +63,15 @@ class SidebarTemp extends Component {
                                 <li className="list-item">
                                     <Link to="./popover">Popover</Link>
                                 </li>
+                                <li className="list-item">
+                                    <Link to='./tooltip'>Tooltip</Link>
+                                </li>
+                                <li className="list-item">
+                                    <Link to='./tabs'>Tabs</Link>
+                                </li>
+                                <li className="list-item">
+                                    <Link to='./form'>Form</Link>
+                                </li>
                             </ul>
                         </Panel.Body>
                     </Panel>
@@ -92,7 +104,10 @@ class SidebarTemp extends Component {
                             <Route  path="/body2" component={BodySecond} />
                             <Route  path="/body3" component={BodyThird} />
                             <Route  path="/pagination" component={PaginationComp} />
+                            <Route  path="/tooltip" component={TooltipComp} />
                             <Route  path="/popover" component={PopoverComp} />
+                            <Route  path="/tabs" component={TabsComp} />
+                            <Route  path="/form" component={FormComp} />
                             <Route  path="/footer1" component={FooterFirst} />
                             <Route  path="/footer2" component={FooterSecond} />
                             <Route  path="/footer3" component={FooterThird} />
